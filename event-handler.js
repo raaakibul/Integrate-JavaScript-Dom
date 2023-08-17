@@ -20,3 +20,19 @@ grayButton.onclick = makeGray;
 function makeGray(){
     document.body.style.backgroundColor = 'gray';
 }
+
+const blackButton = document.getElementById('make-black-button');
+blackButton.onclick = function(){
+    document.body.style.backgroundColor ='black';
+}
+
+// event listeners for button clicks 
+
+const goldenrodButton = document.getElementById('make-goldenrod-button');
+goldenrodButton.addEventListener('click', function(){
+    document.body.style.backgroundColor = 'goldenrod';
+});
+
+// function makeGoldenrod(){
+//     document.body.style.backgroundColor = 'goldenrod';
+// }
