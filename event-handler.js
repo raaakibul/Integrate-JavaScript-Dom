@@ -36,3 +36,13 @@ goldenrodButton.addEventListener('click', function(){
 // function makeGoldenrod(){
 //     document.body.style.backgroundColor = 'goldenrod';
 // }
+
+function handleJustClickButton(){
+    const clickingMethod = document.getElementById('clicking-method');
+    clickingMethod.innerText = "lorem10";
+}
+
+document.getElementById('direct-button').addEventListener('click', function(){
+    const p = document.getElementById('clicking-method');
+    p.innerText = 'loremjjksdgkjsdgjksdjksfjksbdfjksbdgksbjk';
+})
