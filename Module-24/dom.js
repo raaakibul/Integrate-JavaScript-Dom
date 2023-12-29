@@ -8,5 +8,6 @@ for(const h3 of blogTitles){
 
 const blogDetails = document.getElementsByTagName('p');
 for (const p of blogDetails){
+    console.log(p);
     console.log(p.innerText);
 }
