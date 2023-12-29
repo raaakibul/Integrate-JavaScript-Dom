@@ -3,4 +3,5 @@ const blogTitles = document.getElementsByTagName('h3');
 for(const h3 of blogTitles){
     console.log(h3);
     console.log(h3.innerHTML);
+    console.log(h3.innerText);
 }
