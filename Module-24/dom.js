@@ -12,5 +12,8 @@ for (const p of blogDetails){
     // console.log(p.innerText);
 }
 
+const firstTitle = document.getElementById('first-title');
+firstTitle.style.color = 'red';
+
 const secondTitle = document.getElementById('second-title');
 secondTitle.style.textAlign = 'center';
