@@ -14,6 +14,7 @@ for (const p of blogDetails){
 
 const firstTitle = document.getElementById('first-title');
 firstTitle.style.color = 'red';
+firstTitle.style.backgroundColor = 'black';
 
 const secondTitle = document.getElementById('second-title');
 secondTitle.style.textAlign = 'center';
