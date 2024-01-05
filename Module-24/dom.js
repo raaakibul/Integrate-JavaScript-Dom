@@ -18,3 +18,5 @@ firstTitle.style.backgroundColor = 'black';
 
 const secondTitle = document.getElementById('second-title');
 secondTitle.style.textAlign = 'center';
+secondTitle.style.color = 'red';
+
