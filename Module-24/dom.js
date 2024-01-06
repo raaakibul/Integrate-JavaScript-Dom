@@ -22,6 +22,8 @@ secondTitle.style.color = 'red';
 secondTitle.style.fontSize = '20px';
 secondTitle.style.backgroundColor = 'yellow';
 secondTitle.style.fontWeight = 'bold';
+secondTitle.innerText= 'Title updated by JavaScript';
+
 
 
 
