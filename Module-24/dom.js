@@ -1,15 +1,15 @@
 const blogTitles = document.getElementsByTagName('h3');
 // console.log(blogTitles);
 for(const h3 of blogTitles){
-    console.log(h3);
-    console.log(h3.innerHTML);
-    console.log(h3.innerText);
+    // console.log(h3);
+    // console.log(h3.innerHTML);
+    // console.log(h3.innerText);
 }
 
 const blogDetails = document.getElementsByTagName('p');
 for (const p of blogDetails){
-    console.log(p);
-    console.log(p.innerText);
+    // console.log(p);
+    // console.log(p.innerText);
 }
 
 const firstTitle = document.getElementById('first-title');
@@ -28,12 +28,11 @@ secondTitle.style.marginLeft = '20px';
 
 const blogs = document.getElementsByClassName('blog');
 for(const blog of blogs){
-    console.log(blog);
+    // console.log(blog);
     blog.style.border='2px solid orange';
     blog.style.borderRadius='10px';
     blog.style.margin='5px';
     blog.style.padding='5px';
-    
 }
 
 
