@@ -29,7 +29,9 @@ secondTitle.style.marginLeft = '20px';
 const blogs = document.getElementsByClassName('blog');
 for(const blog of blogs){
     console.log(blog);
-    
+    blog.style.border='2px solid orange';
+
+
 }
 
 
