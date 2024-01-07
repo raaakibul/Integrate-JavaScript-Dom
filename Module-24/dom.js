@@ -30,8 +30,10 @@ const blogs = document.getElementsByClassName('blog');
 for(const blog of blogs){
     console.log(blog);
     blog.style.border='2px solid orange';
-
-
+    blog.style.borderRadius='10px';
+    blog.style.margin='5px';
+    blog.style.padding='5px';
+    
 }
 
 
