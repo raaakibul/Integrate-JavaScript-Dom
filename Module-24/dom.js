@@ -36,4 +36,10 @@ for(const blog of blogs){
     blog.style.padding='5px';
 }
 
-// query selector 
+// create elements
+const li = document.createElement('li');
+li.innerText = 'blog-5';
+const ul = document.getElementById('blog-list');
+ul.appendChild(li);
+
+
