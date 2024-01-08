@@ -26,6 +26,7 @@ secondTitle.innerText= 'Title updated by JavaScript';
 secondTitle.style.padding='10px';
 secondTitle.style.marginLeft = '20px';
 
+// get elements by class name
 const blogs = document.getElementsByClassName('blog');
 for(const blog of blogs){
     // console.log(blog);
@@ -35,6 +36,4 @@ for(const blog of blogs){
     blog.style.padding='5px';
 }
 
-
-
-
+// query selector 
