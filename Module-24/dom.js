@@ -42,4 +42,16 @@ li.innerText = 'blog-5';
 const ul = document.getElementById('blog-list');
 ul.appendChild(li);
 
+const article = document.createElement('article');
+const h3 = document.createElement('h3');
+h3.innerText ='My Awesome Blog';
+const p = document.createElement('p');
+p.innerText = 'Lorem ipsum dolor sit am lorem. Cum sociis natoque penatibus et lorem. Lorem ipsum dolor sit am lorem';
+article.appendChild(h3);
+article.appendChild(p);
+
+const blogSection = document.getElementById('blogs');
+blogSection.appendChild(article);
+
+
 
