@@ -26,3 +26,7 @@ function makeGoldenRod(){
 }
 
 // 6th way 
+const blackButton = document.getElementById('black-button');
+blackButton.addEventListener('click', function(){
+    document.body.style.backgroundColor = 'black';
+})
