@@ -12,5 +12,17 @@ function makeBlue(){
 }
 
 // 4th way 
+const greenButton = document.getElementById('green-button');
+greenButton.onclick = function(){
+    document.body.style.backgroundColor = 'green';
+}
 
+// 5th way 
+const goldenButton = document.getElementById('goldenRod-button');
+goldenButton.addEventListener('click', makeGoldenRod)
 
+function makeGoldenRod(){
+    document.body.style.backgroundColor = 'goldenRod';
+}
+
+// 6th way 
