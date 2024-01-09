@@ -11,4 +11,6 @@ function makeBlue(){
     document.body.style.backgroundColor = 'blue';
 }
 
+// 4th way 
+
 
