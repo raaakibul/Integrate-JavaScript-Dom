@@ -11,5 +11,6 @@ document.getElementById('handle-event').addEventListener('click', function(){
 })
 
 document.getElementById('update-name').addEventListener('click', function(){
-    const 
+    const nameField = document.getElementById('name-field');
+    console.log(nameField);
 })
