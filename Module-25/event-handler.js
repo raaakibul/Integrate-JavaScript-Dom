@@ -18,6 +18,6 @@ document.getElementById('update-name').addEventListener('click', function(){
     const p = document.getElementById('clicking-method');
     p.innerText = nameField.value;
     nameField.value = '';
-
-
 })
+
+// Add comment 
