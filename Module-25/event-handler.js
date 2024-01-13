@@ -21,3 +21,6 @@ document.getElementById('update-name').addEventListener('click', function(){
 })
 
 // Add comment 
+document.getElementById('post-button').addEventListener('click', function(){
+    
+})
