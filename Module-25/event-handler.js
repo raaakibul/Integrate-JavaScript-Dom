@@ -36,7 +36,5 @@ document.getElementById('post-button').addEventListener('click', function(){
     commentContainer.appendChild(newComment);
     
     commentText.value = '';
-    
-
 
 })
