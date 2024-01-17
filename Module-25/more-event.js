@@ -5,3 +5,7 @@ document.getElementById("delete-btn").addEventListener("click", function(){
 document.getElementById("delete-confirm").addEventListener('focus', function(){
     document.body.style.backgroundColor = 'lightcoral';
 })
+// blur
+document.getElementById("delete-confirm").addEventListener('blur', function(){
+    document.body.style.backgroundColor = 'white';
+})
