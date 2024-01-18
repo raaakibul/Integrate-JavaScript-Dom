@@ -9,3 +9,7 @@ document.getElementById("delete-confirm").addEventListener('focus', function(){
 document.getElementById("delete-confirm").addEventListener('blur', function(){
     document.body.style.backgroundColor = 'white';
 })
+// keydown
+document.getElementById("delete-confirm").addEventListener('keydown', function(){
+    document.body.style.backgroundColor = 'black';
+})
