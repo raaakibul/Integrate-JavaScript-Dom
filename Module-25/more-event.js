@@ -13,3 +13,8 @@ document.getElementById("delete-confirm").addEventListener('blur', function(){
 document.getElementById("delete-confirm").addEventListener('keydown', function(){
     document.body.style.backgroundColor = 'black';
 })
+
+// keyup
+document.getElementById("delete-confirm").addEventListener('keyup', function(){
+    document.body.style.backgroundColor = 'pink';
+})
