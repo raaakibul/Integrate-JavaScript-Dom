@@ -26,4 +26,3 @@ document.getElementById("delete-confirm").addEventListener('keyup', function(eve
         deleteButton.setAttribute("disabled", true);
     }
 })
-
