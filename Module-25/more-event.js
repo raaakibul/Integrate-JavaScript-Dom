@@ -10,11 +10,13 @@ document.getElementById("delete-confirm").addEventListener('blur', function(){
     document.body.style.backgroundColor = 'white';
 })
 // keydown
-document.getElementById("delete-confirm").addEventListener('keydown', function(){
-    document.body.style.backgroundColor = 'black';
-})
+// document.getElementById("delete-confirm").addEventListener('keydown', function(){
+//     document.body.style.backgroundColor = 'black';
+// })
 
 // keyup
-document.getElementById("delete-confirm").addEventListener('keyup', function(){
-    document.body.style.backgroundColor = 'pink';
-})
+// document.getElementById("delete-confirm").addEventListener('keyup', function(){
+//     document.body.style.backgroundColor = 'pink';
+// })
+
+
