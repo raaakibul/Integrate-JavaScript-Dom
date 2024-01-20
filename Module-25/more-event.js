@@ -15,8 +15,15 @@ document.getElementById("delete-confirm").addEventListener('blur', function(){
 // })
 
 // keyup
-// document.getElementById("delete-confirm").addEventListener('keyup', function(){
-//     document.body.style.backgroundColor = 'pink';
-// })
+document.getElementById("delete-confirm").addEventListener('keyup', function(event){
 
+    const deleteButton = document.getElementById('delete-btn');
+
+    if(event.target.value == "delete"){
+        deleteButton.removeAttribute("disabled");
+    }
+    else{
+        deleteButton.setAttribute("disabled", true);
+    }
+})
 
