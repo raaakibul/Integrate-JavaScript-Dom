@@ -6,3 +6,11 @@ for(const item of items){
         event.target.parentNode.removeChild(event.target);
     })
 }
+
+document.getElementById('add-item').addEventListener('click', function(){
+    const li = document.createElement('li');
+    li.innerText = "Add Item";
+    const parent = document.getElementById('item-container');
+    parent.appendChild(li);
+
+})
