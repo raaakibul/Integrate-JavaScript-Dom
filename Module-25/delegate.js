@@ -10,7 +10,13 @@ for(const item of items){
 document.getElementById('add-item').addEventListener('click', function(){
     const li = document.createElement('li');
     li.innerText = "Add Item";
+    li.classList.add('item');
     const parent = document.getElementById('item-container');
     parent.appendChild(li);
+
+})
+
+document.getElementById('item-container').addEventListener('click', function(event){
+    console.log(event.target);
 
 })
